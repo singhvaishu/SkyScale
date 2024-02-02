@@ -1,0 +1,63 @@
+.current-weather {
+  background-color: rgb(165, 104, 42);
+
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.current-weather {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.temperature-box {
+  box-sizing: border-box;
+  padding: 30px;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  padding-left: 30px;
+}
+
+.weather-table {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+.info-box {
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  padding: 30px;
+  border: none;
+  height: 100px;
+  color: #fff;
+  background-color: rgb(101, 67, 33);
+}
+
+.info-box strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.info-box img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .info-box {
+    width: 100%;
+  }
+}
