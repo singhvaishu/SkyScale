@@ -14,7 +14,7 @@ const App = () => {
   const [forecast, setForecast] = useState(null);
   const [isCelsius, setIsCelsius] = useState(true);
 
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = '3bda6f0a41a66eac8119a1ef2ce115b7';
 
   const apiUrl = 'https://api.openweathermap.org/data/2.5';
 
